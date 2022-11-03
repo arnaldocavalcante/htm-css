@@ -1,0 +1,3 @@
+Para adicionar os símbolos meno que < e maior que > usamos &lt; = LESS THAN / &gt; = GREATER THAN
+
+Para envelopar com uma tag devemos selecionar o que vai ser envelopado e aperta o atalho Ctrl + Shift + p depois clicar em Emmet: Wrap with Abbreviation, se não aparecer digitar "abb", logo depois digitar a tag que desejar.
