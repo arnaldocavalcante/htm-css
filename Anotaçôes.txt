@@ -4,3 +4,6 @@ Para envelopar com uma tag devemos selecionar o que vai ser envelopado e aperta 
 
 
 Para editar a mesma palavra em todo o código basta selecionar a palavra ou deixar o cursor a frente dela e apertar Ctrl+D para selecionar depois apertar Ctrl+Shift+L para assim selecionar todas as palavras iguais.
+
+Adicionar Emojis &#X depois o código do emoji sem o U+
+
