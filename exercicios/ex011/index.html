@@ -15,5 +15,20 @@
     <source media="(max-width: 1050px)" srcset="img/img-m.png" type="image/png">
     <img src="img/img-g.png" alt="img-g.png">
   </picture>
+
+  <h1>Reproduzindo Áudio</h1>
+  <p>Vamos aprender a reproduzir áudio em HTML5</p>
+  <audio src="midia/happy-mistake.mp3" controls autoplay loop></audio>
+  <!--Formatos de áudios suportados MP3, WAV, OGG-->
+
+  <p>Outra forma de adicionar áudios</p>
+  <audio preload="metadata" controls>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    <source src="midia/guanacast-33.ogg" type="audio/ogg">
+    <source src="midia/guanacast-33.wav" type="audio/wav">
+    <p>Infelizmente seu navegador não consegue reproduzir áudios <a href="midia/guanacast-33.mp3">Clique no link para baixar o arquivo mp3.</a></p>
+    <source src="" type="">
+  </audio>
+ 
 </body>
 </html>

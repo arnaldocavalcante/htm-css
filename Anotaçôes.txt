@@ -1,15 +1,44 @@
-*Para adicionar os símbolos meno que < e maior que > usamos &lt; = LESS THAN / &gt; = GREATER THAN
 
-*Para envelopar com uma tag devemos selecionar o que vai ser envelopado e aperta o atalho Ctrl + Shift + p depois clicar em Emmet: Wrap with Abbreviation, se não aparecer digitar "abb", logo depois digitar a tag que desejar.
-
-
-*Para editar a mesma palavra em todo o código basta selecionar a palavra ou deixar o cursor a frente dela e apertar Ctrl+D para selecionar depois apertar Ctrl+Shift+L para assim selecionar todas as palavras iguais.
-
-Adicionar Emojis &#X depois o código do emoji sem o U+
-
-*Imagens dinâmicas, tag <picture>...</picture> sempre usar a sequência com a maior imagem primeiro e depois ir colocando as imagens menores acima dela com a tag <source:media:type> como no exemplo abaixo.
+#Adicionar Símbolos
+Para adicionar os símbolos meno que < e maior que > usamos &lt; = LESS THAN / &gt; = GREATER THAN
+________________________________________________________________________________________________________________________________
+#Envelopamento
+Para envelopar com uma tag devemos selecionar o que vai ser envelopado e aperta o atalho Ctrl + Shift + p depois clicar em Emmet: Wrap with Abbreviation, se não aparecer digitar "abb", logo depois digitar a tag que desejar.
+________________________________________________________________________________________________________________________________
+#Editar várias linhas de uma única vez
+Para editar a mesma palavra em todo o código basta selecionar a palavra ou deixar o cursor a frente dela e apertar Ctrl+D para selecionar depois apertar Ctrl+Shift+L para assim selecionar todas as palavras iguais.
+________________________________________________________________________________________________________________________________
+#Adicionar Emojis
+&#X depois o código do emoji sem o U+
+________________________________________________________________________________________________________________________________
+#Imagens dinâmicas 
+tag <picture>...</picture> sempre usar a sequência com a maior imagem primeiro e depois ir colocando as imagens menores acima dela com a tag <source:media:type> como no exemplo abaixo.
 Obs: em media="(min-width: ) melhor usar o max-width por exemplo, media="(max-width: 750px ) assim  quando o navegador passar de 750px ele carregara a imagem maior.
 
 <picture>
   <source media="(min-width: 750px)" srcset="imagens/img-m.png" type="image/png">
 </picture>
+________________________________________________________________________________________________________________________________
+#Inserir áudios no HTML5 formatos mais aceitos MP3, WAV, OGG. 
+Temos duas tags, a tag <audio></audio>
+e também podemos usar ela da seguinte forma...
+<audio>
+  source:src
+</audio>
+
+Exemplo:
+<source src="midia/guanacast-33.mp3" type="audio/mpeg">
+________________________________________________________________________________________________________________________________
+#Inserir Vídeos no HTML5 formatos mais aceites MP4, M4V, WEBM, OGV. Programa para converter os vídeos HandBreak
+Temos a tag <video></video> e também podemos usar ela da seguinte forma...
+<video>
+  source:src
+</video>
+
+Exemplo
+<video poster="imagens/limoes-capa.png" controls>
+    <source src="midia/meu-video.mp4" type="video/mp4">
+</video>
+
+O parâmetro poster="" pode ser usado para colocar capa no vídeo.
+________________________________________________________________________________________________________________________________
