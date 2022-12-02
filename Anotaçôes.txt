@@ -42,3 +42,8 @@ Exemplo
 
 O parâmetro poster="" pode ser usado para colocar capa no vídeo.
 ________________________________________________________________________________________________________________________________
+
+**CSS**
+
+Podemos usar estilos de CSS de 3 formas;
+Inline
