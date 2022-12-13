@@ -46,4 +46,48 @@ ________________________________________________________________________________
 **CSS**
 
 Podemos usar estilos de CSS de 3 formas;
-Inline
+
+1)CSS Inline style
+Adicionando o parâmetro style e colocando suas declarações exemplo:
+
+<h1 style="color:mediumblue; background-color: dodgerblue; font-size: 1.5em;">Capítulo 1</h1>
+
+2)CSS Internal style
+Para aplicar estilos de forma mais dinâmica e prática, podemos adicionar uma tag <style> dentro da área do <head> do nosso documento HTML local, exemplo:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family:arial,sans-serif;
+      background-color:lightblue
+          
+    }
+    h1 {
+      color:green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Teste</h1>
+</body>
+</html>
+
+3) CSS externo style
+Vá até o final da linha com o <title> e pressione Enter para criar uma nova linha. Depois comece digitando a palavra "link" sem aspas, no menu de contesto que vai aparecer escolha a seguinte opção link:css e a linha apresentada abaixo será preenchida.
+
+<link rel="stylesheet" href="style.css">
+
+CSS externo = use sempre que puder
+CSS interno = use para pequenas configurações
+CSS inline  = procure evitar
+
+Nives de poder hierárquico
+inline
+interno
+externo
