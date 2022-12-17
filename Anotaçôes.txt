@@ -92,3 +92,11 @@ inline
 interno
 externo
 css
+
+O asterisco * nas CSS representa as configurações globais.
+Exemplo:
+
+*{
+
+}
+
